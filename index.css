@@ -1,0 +1,22 @@
+a:index {text-transform: uppercase;
+         font-weight: bold;
+         color: red;
+         background-color: #15fff5;}
+         h1{background-color: #11ff00;}
+header{background-color: red; }
+	body{background-color: #ffffbd6a}
+	p1{color: red;}
+
+	footer{background-color: red; height: 80px;}
+
+	.boton-personalizado {
+text-decoration:none;
+font-weight:20;
+font-size:20px;
+color:#000000;
+padding-top:15px;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:0px;
+background-color:#0003ff;
+} 
