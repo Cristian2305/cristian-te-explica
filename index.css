@@ -3,9 +3,10 @@ a:index {text-transform: uppercase;
          color: red;
          background-color: #15fff5;}
          h1{background-color: #11ff00;}
-header{background-color: red; }
+header{background-color: red; width: 1350px; height: 550}
 	body{background-color: #ffffbd6a}
 	p1{color: red;}
+
 
 	footer{background-color: red; height: 80px;}
 
@@ -18,5 +19,27 @@ padding-top:15px;
 padding-bottom:0px;
 padding-left:0px;
 padding-right:0px;
-background-color:#0003ff;
+background-color:transparent;
+} 
+h1{font-family: helvetica;}
+a.boton-personalizado{
+  position: relative;
+  top: em;
+  right: 10em;
+} 
+.boton1-personalizado {
+text-decoration:none;
+font-weight:20;
+font-size:20px;
+color:#000000;
+padding-top:15px;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:0px;
+background-color:transparent;
+} 
+a.boton1-personalizado{
+  position: relative;
+  bottom: 2em;
+  right: 1em;
 } 
