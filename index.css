@@ -1,45 +1,57 @@
-a:index {text-transform: uppercase;
-         font-weight: bold;
-         color: red;
-         background-color: #15fff5;}
-         h1{background-color: #11ff00;}
-header{background-color: red; width: 1350px; height: 550}
-	body{background-color: #ffffbd6a}
-	p1{color: red;}
-
-
-	footer{background-color: red; height: 80px;}
-
-	.boton-personalizado {
-text-decoration:none;
-font-weight:20;
-font-size:20px;
-color:#000000;
-padding-top:15px;
-padding-bottom:0px;
-padding-left:0px;
-padding-right:0px;
-background-color:transparent;
-} 
-h1{font-family: helvetica;}
-a.boton-personalizado{
-  position: relative;
-  top: em;
-  right: 10em;
-} 
-.boton1-personalizado {
-text-decoration:none;
-font-weight:20;
-font-size:20px;
-color:#000000;
-padding-top:15px;
-padding-bottom:0px;
-padding-left:0px;
-padding-right:0px;
-background-color:transparent;
-} 
-a.boton1-personalizado{
-  position: relative;
-  bottom: 2em;
-  right: 1em;
-} 
+*{
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+/*Encabezado*/
+header{
+  width: 100%;
+  height: 100px;
+  background-color: darkred;
+}
+/*Titulo del encabezado*/
+h1{
+  text-align: center;
+  padding: 35px;
+  color: white;
+}
+/*navegacion*/
+nav ul{
+  background-color: red;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline-flex;
+}
+nav a{text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 150px;
+}
+nav li:hover{
+  background-color: darkred;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkred;
+  text-align: center;
+  color: white;
+}
+center{
+  font-size: 20px;
+}
+strong{
+  font-size: 25px;
+}
+#logo{
+  width: 100px;
+  height: 100px;
+}
+#Banner{
+  float: right;
+  height: 100%;
+  align-items: center;
+}
